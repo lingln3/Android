@@ -1,0 +1,29 @@
+package com.example.framlayoutnhd;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+
+
+
+public class MainActivity extends Activity {
+
+	private int[] color = {
+			0xf00,0xf0,0x00f,0xff0,0xf0f,0xff
+	}
+	private int[] id = {
+			R.id.view01,
+			R.id.view02,
+			R.id.view03,
+			R.id.view04,
+			R.id.view05,
+			R.id.view06
+	};
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+  
+}
