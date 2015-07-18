@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DrawableTest/res/drawable-mdpi/layout_logo.xml&apos; to &apos;my_bar&apos;" description="Rename resource &apos;layout_logo.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-mdpi/layout_logo.xml" name="my_bar" stamp="1437185259388" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DrawableTest/res/drawable-mdpi/my_bar&apos; to &apos;my_bar.xml&apos;" description="Rename resource &apos;my_bar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-mdpi/my_bar" name="my_bar.xml" stamp="1437185522096" updateReferences="true"/>
+</session>

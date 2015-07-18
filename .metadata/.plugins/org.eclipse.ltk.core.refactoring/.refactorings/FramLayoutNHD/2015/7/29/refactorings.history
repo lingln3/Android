@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FramLayoutNHD/res/values/array.xml&apos; to &apos;arrays.xml&apos;" description="Rename resource &apos;array.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/values/array.xml" name="arrays.xml" stamp="1437035648658" updateReferences="true"/>
+</session>
