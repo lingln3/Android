@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String[] args)
+	{
+		Main main = new Main();
+		Scanner scan = new Scanner(System.in);
+		int n = 0;
+		n = scan.nextInt();
+		System.out.println(main.shizi(n));
+		System.out.println(n/2*2+Math.pow(-1, n-1));
+	}
+	public int shizi(int n)
+	{
+		int biaozhi = 0;
+		int f1=1,f2 = 2;
+		int count = weishu(n);
+		int m = n;
+		int xunhuan = 1;
+		while(xunhuan == 1)
+		{
+			int temp = f1;
+			f1 = f2;
+			f2 = temp + f2;
+			if(n == f1 || n == f2 ) 
+				{
+					xunhuan = 0;
+					biaozhi = 2;
+				}
+			else if(n > f1 && n < f2)
+			{
+				xunhuan = 0;
+				biaozhi = 1;
+			}		
+		}
+		return biaozhi;
+	}	
+	public int weishu(int n)
+	{
+		int weishu = 1;
+		int m = n;
+		for(int i = 0 ; ; i++)
+		{
+			m = m/10;
+			if(m != 0) weishu++;
+			else 
+			{
+//				weishu;
+				break;
+			}
+		}
+		return weishu;
+	}
+}

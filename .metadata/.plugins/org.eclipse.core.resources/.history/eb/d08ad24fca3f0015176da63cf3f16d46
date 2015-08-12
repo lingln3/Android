@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+
+public class Twelve {
+	int count = 0;
+	int n = 0;
+	public void light()
+	{
+		Scanner scan = new Scanner(System.in);
+		n = scan.nextInt();
+		int[] state = new int[n];
+	}
+}

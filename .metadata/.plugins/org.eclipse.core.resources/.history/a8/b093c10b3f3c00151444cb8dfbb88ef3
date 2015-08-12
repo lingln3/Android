@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+
+public class Five {
+	int num1 = 0 , num2 = 0;
+	String operator;
+	Scanner scan = new Scanner(System.in);
+	String str[] = new String[3];
+	private static int result = 0;
+	public void function()
+	{		
+		System.out.println("please input the function");
+		for(int i = 0 ; i < str.length; i++)
+		{
+			str[i] = scan.next();
+		}
+		num1 = Integer.parseInt(str[0]);
+		num2 = Integer.parseInt(str[2]);
+		operator = str[1];
+//		System.out.println(num1);
+//		System.out.println(num2);
+//		System.out.println(operator);
+
+		switch(operator)
+		{
+		case "+":
+			result = num1 + num2;
+			System.out.println(result);
+
+		case "-":
+			result = num1 - num2;
+			System.out.println(result);
+
+		case "*":
+			result = num1 * num2;
+			System.out.println(result);
+
+		case "/":
+			if(num2 != 0)	result = num1 / num2;
+			else if(num2 == 0)
+			{
+				System.out.println("除数不可以为0，请重新输入运算操作式");
+				this.function();
+			}
+			System.out.println(result);
+
+			default:break;
+		}
+		System.out.println(result);
+	}
+	
+}

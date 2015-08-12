@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		char[] pcAddend;
+		char[] pcAugend;
+		char[] pcAddResult;
+		String str1,str2;
+		Main main = new Main();		
+		Scanner scan = new Scanner(System.in);
+		str1 = scan.next();
+		str2 = scan.next();
+		
+	}
+	public void AddLongInteger(Main main)
+	{
+		main.
+	}
+}

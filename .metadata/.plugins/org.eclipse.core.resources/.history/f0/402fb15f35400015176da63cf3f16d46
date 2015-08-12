@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+
+public class TwentyFive {
+	public void pipei()
+	{
+		Scanner scan = new Scanner(System.in);
+		String s1 = scan.nextLine();
+	}
+}

@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String[] args)
+	{
+		int biaozhi = 0;
+		int count = 0;
+		Scanner scan = new Scanner(System.in);
+		String str = new String();
+		int m = scan.nextInt();
+		str = scan.next();
+		int n = str.length();
+		char[] ch = str.toCharArray();
+		int j = 0;
+		while( n-count < m)
+		{
+			if( n-j-1 < m)
+			{
+				j = m+j-n;
+			}
+			if(ch[j] != '0')
+			{
+				//j++;
+				biaozhi++;
+			}
+			if(biaozhi == m)
+			{
+				ch[j] = '0';
+				count++;
+			}
+			j++;
+		}
+		for(int i = 0; n - count < m ; i++)
+		{
+			if(n-i-1<m)
+			{
+				i = m - n + i;
+			}
+		}
+	}
+}

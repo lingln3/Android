@@ -1,0 +1,15 @@
+
+public class Eighteen {
+	
+	public static void converse(){
+		
+	}
+}
+class Node{
+	int val;
+	Node next;
+	Node(int val)
+	{
+		this.val = val;
+	}
+	}

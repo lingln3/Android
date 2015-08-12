@@ -46,9 +46,10 @@ public class MainActivity extends Activity {
         	listItem.put("image", imageIds[i]);
         	listItems.add(listItem);
         }
+       
         //创建一个SimpleAdapter
         SimpleAdapter adapter = new SimpleAdapter(this,listItems,
-        		R.layout.cell2,new String[]{"name"},new int[]{R.id.image1});
+        		R.layout.cell2,new String[]{"image"},new int[]{R.id.image1});
         
         gridView.setAdapter(adapter);
         

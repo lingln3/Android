@@ -1,0 +1,23 @@
+import java.util.Collection;
+import java.util.Map;
+
+public class CollectClass {
+	public Collection fill(Collection<String> collection)
+	{
+		collection.add("Snow White");
+		collection.add("Star Wars");
+		collection.add("Cinderalla");
+		return collection;
+	}
+	public Map fill(Map<String,String> map)
+	{
+		map.put("name1", "Snow White");
+		map.put("name2", "Star Wars");
+		map.put("name3", "Cinderalla");
+		return map;
+	}
+	public void print(Object o)
+	{
+		System.out.println(o);
+	}
+}

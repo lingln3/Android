@@ -1,0 +1,9 @@
+import java.util.Collection;
+
+public class CollectClass {
+	public Collection fill(Collection<String> collcetion)
+	{
+		collection.add("rat");
+		
+	}
+}

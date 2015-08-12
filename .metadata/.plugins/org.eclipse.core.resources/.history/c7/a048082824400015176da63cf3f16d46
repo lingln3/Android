@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class TwentyTwo {
+	String s;
+	int n = 0;
+	public void zhuanhuan()
+	{
+		Scanner scan = new Scanner(System.in);
+		s = scan.next();
+		n = scan.nextInt();
+		System.out.print(s+n);
+	}
+}

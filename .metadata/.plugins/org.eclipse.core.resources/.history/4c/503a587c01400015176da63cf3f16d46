@@ -1,0 +1,67 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+
+public class Twenty {
+	String str;
+	int biaozhi = 1;
+	List<Character> list = new ArrayList<Character>();
+	public void match()
+	{
+		
+		Scanner scan = new Scanner(System.in);
+		str = scan.nextLine();
+		char[] ch = str.toCharArray();
+		if(str.isEmpty())
+		{
+			biaozhi = 1;
+		}
+		else
+		{
+			for(int i = 0; i<str.length();i++)
+			{
+				switch(ch[i])
+				{
+				case '(':
+					list.add(ch[i]);
+					break;
+				case '[':
+					list.add(ch[i]);
+					break;
+				case ')':				
+				case ']':
+				{
+					if(list.size() == 0)
+					{
+						biaozhi = 0;
+					}
+					else
+					{
+						for(int j = list.size()-1; j>=0;j--)
+						{
+							if(list.contains(ch[i]))
+							{
+								int position = list.indexOf(ch[i]);
+								list.remove(position);
+							}
+							else{
+								biaozhi = 1;
+							}
+						}
+					}
+					break;
+				}
+				}
+			}
+		}
+		if(list.size()>0)
+		{
+			biaozhi = 1;
+		}
+		else{
+			biaozhi = 0;
+		}
+		System.out.println(biaozhi);
+	}
+}

@@ -1,0 +1,73 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+
+public class Test15 {
+	public void test()
+	{
+		System.out.println("输入一个数字，一串字符串");
+		InputStreamReader ir = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(ir);
+		String str = "";
+		try{
+			str = br.readLine();
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		int n = str.charAt(0) - '0';
+		String str2 = str.substring(2);
+		System.out.println(n);
+		System.out.println(str2+str2.length());
+		Collection<String> collection = new ArrayList<String>();
+		ArrayList<String> collect = new ArrayList<String>();
+		Collections.addAll(collection, str2);
+		collect.add(str2);
+		List<String> list = Arrays.asList(str2);
+		for(String s:list)
+		{
+			System.out.print(s);			
+		}
+		int i = 0;
+		/*while(collection.size() != 0)
+		{
+			int size = collection.size();
+			i = i+n-1;
+			if(i+n-1 > size)
+			{
+				i = i+n-1-size;
+			}			
+		}*/
+		/*while(collect.size() != 0)
+		{
+			int size = collect.size();
+			i = i+n-1;
+			if( i+n-1 > size)
+			{
+				i = i+n-1-size;
+			}
+			System.out.print(collect.get(i));
+			collect.remove(i);
+		}*/
+//		while(iter. != 0)
+//		{
+//			int size = collect.size();
+//			i = i+n-1;
+//			if( i+n-1 > size)
+//			{
+//				i = i+n-1-size;
+//			}
+//			System.out.print(collect.get(i));
+//			collect.remove(i);
+//		}
+	}
+}

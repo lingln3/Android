@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class Eight {
+	/*
+	 * 输入一组身高在170~190间（5个身高），比较身高差，选出身高差最小的2个身高
+	 * 若身高差相等，选平均身高高的那两个身高；从小到大输出
+	 */
+	Scanner scan = new Scanner(System.in);
+	public void getHeightDif()
+	{		
+		System.out.println("请输入身高在170~190之间的5个身高");
+		
+	}
+}

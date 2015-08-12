@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+
+public class Seventeen {
+	public void find()
+	{
+		Scanner scan = new Scanner(System.in);
+		String s = scan.nextLine();
+				
+	}
+}

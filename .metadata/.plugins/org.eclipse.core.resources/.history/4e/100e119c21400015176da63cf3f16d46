@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class TwentyOne {
+	String s1,s2;
+	public void sort()
+	{
+		Scanner scan = new Scanner(System.in);
+		s1 = scan.nextLine();
+		s1 = scan.nextLine();
+		System.out.println(s1);
+	}
+	
+}

@@ -1,0 +1,14 @@
+
+public class Gerbil {
+	private static int gerbilNumber = 0;
+	private String hopInfo;
+	Gerbil()
+	{
+		gerbilNumber++;
+		hopInfo = "hi";
+	}
+	public void hop()
+	{
+		System.out.println(this.gerbilNumber+this.hopInfo);
+	}
+}

@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int n = 0;
+		n = scan.nextInt();
+	}
+	public static int shizi(int n)
+	{
+		int biaozhi = 0;
+		int biaozhi2 = 0;
+		int qushiz = 1;
+		int m = 0 ;
+		int left = n;
+		int num1 = 0, num2 = 0;
+		int x1=0,xm=0;
+		for(m =2 ; m <=(n/2+n%2); m++)
+		{
+			for( x1 = 1 ; 2*xm-x1<=n && xm <= x1*Math.pow(4,m-1);x1++)
+			{
+				for(xm = (int) (x1*Math.pow(4,m-1)) ;  2*xm - x1 <= n; xm--)
+				{
+					biaozhi = 1;
+				}
+			}
+		}
+		if(biaozhi == 1) biaozhi2 = 1;
+		else biaozhi2 = 2;
+		/*if(qushiz == 1)
+		{
+			
+			qushiz = 2;
+		}
+		else if(qushiz == 2)
+		{
+			qushiz = 1;
+		}*/
+		return biaozhi2;
+	}
+}

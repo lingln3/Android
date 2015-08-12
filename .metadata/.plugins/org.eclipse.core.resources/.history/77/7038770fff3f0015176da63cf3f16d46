@@ -1,0 +1,14 @@
+import java.util.List;
+import java.util.Scanner;
+
+
+public class Twenty {
+	String str;
+	List<Character> list = new ArrayList<Character>();
+	public void match()
+	{
+		Scanner scan = new Scanner(System.in);
+		str = scan.nextLine();
+		
+	}
+}

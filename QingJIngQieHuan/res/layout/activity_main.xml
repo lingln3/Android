@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+    
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "请选择一种模式"
+                />
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <CheckBox
+                android:id = "@+id/mode1"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="情景模式一"
+                android:checked = "false"/>
+                <CheckBox
+                android:id = "@+id/mode2"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="end"
+                android:text="情景模式二"
+                android:checked = "false"/>
+                <CheckBox
+                android:id = "@+id/mode3"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="end"
+                android:text="情景模式三"
+                android:checked = "false"/>
+                <CheckBox
+                android:id = "@+id/mode4"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="end"
+                android:text="情景模式四"
+                android:checked = "false"/>
+        </LinearLayout>
+    </TableRow>    
+    </TableLayout>
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择时间" />
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

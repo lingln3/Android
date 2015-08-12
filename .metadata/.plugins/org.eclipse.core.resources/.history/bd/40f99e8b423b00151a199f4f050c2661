@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Test2 {
+	public void three()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("ÇëÊäÈëÒ»´®Ğ¡Ğ´×ÖÄ¸×Ö·û´®");
+		String s = scan.next();
+		System.out.println(s);
+		char[] ch = s.toCharArray();
+		for(int i = 0; i<ch.length; i++)
+		{
+			int j = s.indexOf(ch[i],i+1);
+			s = s.substring(0,j-1) + s.substring(j+1);
+		}
+		System.out.printlns(s);
+	}
+}

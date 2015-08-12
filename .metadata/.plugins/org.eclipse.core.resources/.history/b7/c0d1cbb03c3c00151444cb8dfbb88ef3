@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class Five {
+	public void function()
+	{		
+		Scanner scan = new Scanner(System.in);
+		String str = new String();
+		System.out.println("please input the function");
+		str = scan.next();
+		System.out.println(str);
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+
+public class Twelve {
+	public void light()
+	{
+		Scanner scan = new Scanner(System.in);
+		
+	}
+}

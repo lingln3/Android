@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class TwentyFive {
+	String state = "";
+	int num = 0;
+	public void pipei()
+	{
+		StringBuilder s2 = new StringBuilder();
+		Scanner scan = new Scanner(System.in);
+		String s1 = scan.nextLine();
+		char[] ch1 = s1.toCharArray();
+		for(char c:ch1)
+		{
+			if(c == '(' | c ==')')
+			{
+				s2.append(c);
+			}
+		}
+		String s3 = s2.toString();
+		if(s3.startsWith(")") | s3.endsWith("("))
+		{
+			state = "WRANG";
+		}
+	}
+}

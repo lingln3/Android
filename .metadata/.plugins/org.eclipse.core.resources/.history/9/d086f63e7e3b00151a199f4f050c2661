@@ -1,0 +1,14 @@
+
+public class Main {
+	
+	public static void main(String[] args){
+		Test1 test1 = new Test1();
+//		test1.getScanner();
+//		test1.getUnkownLength();
+//		test1.getStringToInt();
+//		test1.getStringToInt2();
+		Test2 test2 = new Test2();
+		test2.three();
+
+	}
+}

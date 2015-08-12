@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class Four {
+	public void stringZip()
+	{
+		String InputStr;
+		long InputLen;
+		String outputStr;
+		Scanner scan = new Scanner(System.in);
+		InputStr = scan.next();
+		InputLen = InputStr.length();
+	}
+}

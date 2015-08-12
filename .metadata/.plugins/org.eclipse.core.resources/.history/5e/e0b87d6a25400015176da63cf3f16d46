@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+
+public class TwentyTwo {
+	String s;
+	String[] str;
+	int n = 0;
+	public void zhuanhuan()
+	{
+		Scanner scan = new Scanner(System.in);
+		s = scan.next();
+		n = scan.nextInt();
+//		System.out.print(s+" "+n);
+		int num = 0;
+		if(s.length()%n == 0)
+		{
+			num = s.length()/n;
+		}
+		else
+		{
+			num = s.length()/n + 1;
+		}
+		str = new String[num];
+		for(int i=0; i<num;i++)
+		{
+			str[i] = s.substring(i,i+n);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+
+public class Test2 {
+	public void three()
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("ÇëÊäÈëÒ»´®Ğ¡Ğ´×ÖÄ¸×Ö·û´®");
+		String s = scan.next();
+		System.out.println(s);
+		
+	}
+}

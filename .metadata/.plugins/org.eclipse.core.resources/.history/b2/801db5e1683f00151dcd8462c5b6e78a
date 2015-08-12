@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class Ten {
+	
+	public void add(char[] num1,char[] num2, char[] result)
+	{
+//		Scanner sc = new Scanner(System.in);
+//		num1 = sc.nextLine().toCharArray();
+//		num2 = sc.nextLine().toCharArray();
+		String s1 = num1.toString();
+		System.out.println(s1);
+	}
+
+	
+}

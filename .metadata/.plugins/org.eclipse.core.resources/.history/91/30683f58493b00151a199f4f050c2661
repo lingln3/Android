@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class Four {
+	public void stringZip()
+	{
+		String InputStr;
+		long InputLen;
+		String outputStr;
+		@SuppressWarnings("resource")
+		Scanner scan = new Scanner(System.in);
+		InputStr = scan.next();
+		InputLen = InputStr.length();
+		int count = 1;
+		int index = 0;
+		for(int i = 0 ; i < InputStr.length(); i++)
+		{
+			char[] ch = InputStr.toCharArray();
+			while(index != -1)
+			{
+				if(ch[i] != ch[i+1]){
+					index = -1;
+				}
+				else
+				{
+					InputStr =InputStr.substring(0,i+1)+InputStr.substring(i+2);
+					count++;					
+				}
+			}
+			s = s.substring(0,)
+		}
+	}
+}

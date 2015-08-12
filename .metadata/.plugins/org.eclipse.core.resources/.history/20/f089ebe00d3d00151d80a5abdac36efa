@@ -1,0 +1,19 @@
+
+public class Main {
+	
+	public static void main(String[] args){
+//		Test1 test1 = new Test1();
+//		test1.getScanner();
+//		test1.getUnkownLength();
+//		test1.getStringToInt();
+//		test1.getStringToInt2();
+		/*Test2 test2 = new Test2();
+		test2.three();*/
+		/*Four test4 = new Four();
+		test4.stringZip();*/
+		/*Five test5 = new Five();
+		test5.function();*/
+		Six test6 = new Six();
+		test6.getNum(6, 4, 3);
+	}
+}

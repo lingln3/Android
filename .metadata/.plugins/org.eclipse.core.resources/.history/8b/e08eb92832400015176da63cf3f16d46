@@ -1,0 +1,11 @@
+import java.util.LinkedHashSet;
+
+
+public class TwentyFour {
+	LinkedHashSet<Integer> list = new LinkedHashSet<Integer>();
+	public void change()
+	{
+		Scanner scan = new Scanner(System.in);
+		String s;
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class TwentyThree {
+	String s1;
+	String[] array;
+	public void translate()
+	{
+		Scanner scan = new Scanner(System.in);
+		s1 = scan.nextLine();
+		array = s1.split([A-Z]);
+		for(int i = 0 ; i<array.length; i++)
+		{
+			
+		}
+	}
+}

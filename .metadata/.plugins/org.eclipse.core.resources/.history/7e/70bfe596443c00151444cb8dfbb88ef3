@@ -1,0 +1,13 @@
+
+public class Six {
+	int count = 0;//计算最终出列的人数
+	/*
+	 * 约瑟夫环
+	 * n:总人数
+	 * m:第m个出列
+	 */
+	public void getNum(int n, int m)
+	{
+				
+	}
+}

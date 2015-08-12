@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+
+public class Seventeen {
+	List<Integer> array = new ArrayList<Integer>();
+	public void find()
+	{
+		Scanner scan = new Scanner(System.in);
+		while(scan.hasNext())
+		{
+			array.add(scan.nextInt());
+		}
+	}
+}

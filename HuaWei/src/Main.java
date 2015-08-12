@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+
+public class Main {
+	
+	public static void main(String[] args){
+//		Test1 test1 = new Test1();
+//		test1.getScanner();
+//		test1.getUnkownLength();
+//		test1.getStringToInt();
+//		test1.getStringToInt2();
+		/*Test2 test2 = new Test2();
+		test2.three();*/
+		/*Four test4 = new Four();
+		test4.stringZip();*/
+		/*Five test5 = new Five();
+		test5.function();*/
+		/*Six test6 = new Six();
+		test6.getNum(6, 4, 3);*/
+	/*	Eight test8 = new Eight();
+		test8.getHeightDif();*/
+		/*Nine nine = new Nine();
+		int n = nine.delete("ababcabcdabcabce");
+		System.out.print(n);*/
+		/*Scanner sc = new Scanner(System.in);
+		char[] num1 = sc.nextLine().toCharArray();
+		char[] num2 = sc.nextLine().toCharArray();
+		char[] result = new char[Math.max(num1.length, num2.length)+1];
+		Ten ten = new Ten();
+		ten.add(num1, num2, result);*/
+		/*Eleven eleven = new Eleven();
+		eleven.getAver();*/
+		/*Twelve twelve = new Twelve();
+		twelve.light();*/
+		/*Fourteen four = new Fourteen();
+		four.change();*/
+		/*Fifteen fif = new Fifteen();
+		fif.get();*/
+		/*Sixteen six = new Sixteen();
+		six.find();*/
+		/*Seventeen seven = new Seventeen();
+		seven.find();*/
+		/*Twenty twenty = new Twenty();
+		twenty.match();*/
+		/*TwentyOne twentyOne = new TwentyOne();
+		twentyOne.sort();*/
+		/*TwentyTwo twentyTwo = new TwentyTwo();
+		twentyTwo.zhuanhuan();*/
+		/*TwentyThree twentyThree = new TwentyThree();
+		twentyThree.translate();*/
+		/*TwentyFour twentyFour = new TwentyFour();
+		twentyFour.change();*/
+		TwentyFive twentyFive = new TwentyFive();
+		twentyFive.pipei();
+
+	}
+}

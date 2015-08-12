@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+
+public class TwentyTwo {
+	String s;
+	String[] str;
+	int n = 0;
+	boolean biao = false;
+	public void zhuanhuan()
+	{
+		Scanner scan = new Scanner(System.in);
+		s = scan.next();
+		n = scan.nextInt();
+//		System.out.print(s+" "+n);
+		int num = 0;
+		if(s.length()%n == 0)
+		{
+			num = s.length()/n;
+			biao = true;
+		}
+		else
+		{
+			num = s.length()/n + 1;
+		}
+		str = new String[num];
+		for(int i=0; i<num-1;i++)
+		{
+			str[i] = s.substring(0,n);
+			s = s.substring(n);
+		}
+		str[num-1] = s;
+		if(str[num-1].length() < n)
+		{
+			int len = str[num-1].length();
+			StringBuilder strBuilder = new StringBuilder();
+			strBuilder.append(str[num-1]);
+			for(int i=0; i<n-len;i++)
+			{
+				strBuilder.append("0");
+			}
+			str[num-1] = strBuilder.toString();
+			for(String s:str)
+			{
+				System.out.println(s);
+			}
+		}
+	}
+}
